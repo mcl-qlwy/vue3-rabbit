@@ -2,7 +2,7 @@
  * @Author: mochenglong
  * @Date: 2024-06-05 22:20:02
  * @LastEditors: mochenglong
- * @LastEditTime: 2024-06-05 23:42:23
+ * @LastEditTime: 2024-06-06 01:54:04
  * @Description: file content
  */
 import { fileURLToPath, URL } from 'node:url'
@@ -38,6 +38,7 @@ export default defineConfig({
       scss: {
         additionalData: `
           @use "@/styles/element/index.scss" as *;
+          @use "@/styles/var.scss" as *;
         `,
       }
     }
