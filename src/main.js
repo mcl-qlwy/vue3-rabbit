@@ -1,3 +1,10 @@
+/*
+ * @Author: mochenglong
+ * @Date: 2024-06-05 22:20:02
+ * @LastEditors: mochenglong
+ * @LastEditTime: 2024-06-06 00:44:58
+ * @Description: file content
+ */
 import './assets/main.css'
 
 import { createApp } from 'vue'
@@ -8,6 +15,13 @@ import router from './router'
 
 const app = createApp(App)
 
+
+//测试接口函数
+
+import { getCategory } from '@/apis/testAPI'
+getCategory().then(res=>{
+  console.log(res);
+})
 app.use(createPinia())
 app.use(router)
 
