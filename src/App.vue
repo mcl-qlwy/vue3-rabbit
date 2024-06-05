@@ -2,30 +2,14 @@
  * @Author: mochenglong
  * @Date: 2024-06-05 22:20:02
  * @LastEditors: mochenglong
- * @LastEditTime: 2024-06-05 22:49:12
+ * @LastEditTime: 2024-06-06 01:11:36
  * @Description: file content
 -->
 <script setup>
-import { RouterLink, RouterView } from 'vue-router'
-import HelloWorld from './components/HelloWorld.vue'
 
 </script>
 
 <template>
-  <header>
-    <img alt="Vue logo" class="logo" src="@/assets/logo.svg" width="125" height="125" />
-
-    <div class="wrapper">
-      <HelloWorld msg="You did it!" />
-
-      <nav>
-        <RouterLink to="/">Home</RouterLink>
-        <el-button type="primary">Primary</el-button>
-        <RouterLink to="/about">About</RouterLink>
-      </nav>
-    </div>
-  </header>
-
   <RouterView />
 </template>
 
