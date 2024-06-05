@@ -1,6 +1,14 @@
+<!--
+ * @Author: mochenglong
+ * @Date: 2024-06-05 22:20:02
+ * @LastEditors: mochenglong
+ * @LastEditTime: 2024-06-05 22:49:12
+ * @Description: file content
+-->
 <script setup>
 import { RouterLink, RouterView } from 'vue-router'
 import HelloWorld from './components/HelloWorld.vue'
+
 </script>
 
 <template>
@@ -12,6 +20,7 @@ import HelloWorld from './components/HelloWorld.vue'
 
       <nav>
         <RouterLink to="/">Home</RouterLink>
+        <el-button type="primary">Primary</el-button>
         <RouterLink to="/about">About</RouterLink>
       </nav>
     </div>
