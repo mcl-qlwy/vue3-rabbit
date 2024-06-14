@@ -1,3 +1,10 @@
+/*
+ * @Author: mochenglong
+ * @Date: 2024-06-05 22:20:02
+ * @LastEditors: mochenglong
+ * @LastEditTime: 2024-06-07 23:53:21
+ * @Description: file content
+ */
 import { createRouter, createWebHistory } from 'vue-router'
 
 import Login from '@/views/Login/index.vue'
@@ -21,7 +28,7 @@ const router = createRouter({
           component: Home
         },
         {
-          path: '/category',
+          path: '/category/:id',
           component: Category
         }
       ]

@@ -8,6 +8,7 @@ export function getBannerAPI(){
   })
 }
 
+
 // 获取新鲜好物列表
 export function findNewAPI(){
   return httpInstance({
